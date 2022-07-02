@@ -70,9 +70,6 @@ margin_bottom = 660.0
 custom_fonts/font = SubResource( 1 )
 align = 0
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="AnimRect" type="ColorRect" parent="CreditsButton"]
 margin_right = 36.0
@@ -97,9 +94,6 @@ margin_bottom = 780.0
 custom_fonts/font = SubResource( 1 )
 align = 0
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="AnimRect" type="ColorRect" parent="ExitButton"]
 margin_right = 36.0
@@ -120,17 +114,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[connection signal="mouse_entered" from="PlayButton" to="." method="_on_play_button_mouse_entered"]
 [connection signal="mouse_entered" from="PlayButton" to="PlayButton" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="PlayButton" to="PlayButton" method="_on_mouse_exited"]
 [connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
-[connection signal="mouse_entered" from="SettingsButton" to="." method="_on_settings_button_mouse_entered"]
 [connection signal="mouse_entered" from="SettingsButton" to="SettingsButton" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="SettingsButton" to="SettingsButton" method="_on_mouse_exited"]
-[connection signal="mouse_entered" from="CreditsButton" to="." method="_on_credits_button_mouse_entered"]
 [connection signal="mouse_entered" from="CreditsButton" to="CreditsButton" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CreditsButton" to="CreditsButton" method="_on_mouse_exited"]
-[connection signal="mouse_entered" from="ExitButton" to="." method="_on_exit_button_mouse_entered"]
 [connection signal="mouse_entered" from="ExitButton" to="ExitButton" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="ExitButton" to="ExitButton" method="_on_mouse_exited"]
 [connection signal="pressed" from="ExitButton" to="." method="_on_ExitButton_pressed"]

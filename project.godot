@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="SummerJam2022"
-run/main_scene="res://Assets/Scenes/MainMenu.tscn"
+run/main_scene="res://Assets/Scenes/Debug.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -23,7 +23,6 @@ VersionWatermark="*res://Assets/Debug/VersionWatermark.tscn"
 
 window/size/width=1920
 window/size/height=1080
-window/size/fullscreen=true
 window/size/test_width=1920
 window/size/test_height=1080
 
