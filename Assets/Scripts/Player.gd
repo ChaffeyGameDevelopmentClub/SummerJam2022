@@ -20,6 +20,14 @@ func _process(delta):
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	input_vector = input_vector.normalized()
+	if Input.get_action_strength("ui_right"):
+		$AnimatedSprite.play("right")
+	elif Input.get_action_strength("ui_left"):
+		$AnimatedSprite.play("left")
+	elif Input.get_action_strength("ui_up"):
+		$AnimatedSprite.play("up")
+	elif Input.get_action_strength("ui_down"):
+		$AnimatedSprite.play("down")
 
 #Process physics
 func _physics_process(delta):
