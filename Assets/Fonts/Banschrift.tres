@@ -3,5 +3,5 @@
 [ext_resource path="res://Assets/Fonts/BAHNSCHRIFT.TTF" type="DynamicFontData" id=1]
 
 [resource]
-size = 29
+size = 10
 font_data = ExtResource( 1 )
