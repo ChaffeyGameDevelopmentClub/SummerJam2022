@@ -215,17 +215,24 @@ tracks/0/keys = {
 }
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 4.57526
-height = 0.0
+radius = 2.5
+height = 8.0
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.5, -18.25 )
 texture = ExtResource( 3 )
 hframes = 12
 vframes = 8
 frame = 48
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource( 23 )
@@ -247,6 +254,7 @@ anims/walk_right = SubResource( 9 )
 anims/walk_up = SubResource( 10 )
 
 [node name="AimLine" type="Line2D" parent="."]
+position = Vector2( -0.5, -12.25 )
 points = PoolVector2Array( 0, 0, 50, 0 )
 width = 1.0
 default_color = Color( 1, 0, 0, 1 )
@@ -254,5 +262,6 @@ default_color = Color( 1, 0, 0, 1 )
 [node name="Polygon2D" type="Polygon2D" parent="."]
 
 [node name="FeetHitbox" type="CollisionShape2D" parent="."]
-position = Vector2( -0.500572, 15.4307 )
+position = Vector2( -0.5, -2.25 )
+rotation = -1.5708
 shape = SubResource( 1 )
