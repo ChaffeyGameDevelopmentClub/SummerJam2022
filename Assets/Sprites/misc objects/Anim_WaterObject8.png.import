@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-1ada42475fe106c59fb9885a73678c1a.stex"
+path="res://.import/Anim_WaterObject8.png-2d769bd07316f16602337516368b82bf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/icon.png"
-dest_files=[ "res://.import/icon.png-1ada42475fe106c59fb9885a73678c1a.stex" ]
+source_file="res://Assets/Sprites/misc objects/Anim_WaterObject8.png"
+dest_files=[ "res://.import/Anim_WaterObject8.png-2d769bd07316f16602337516368b82bf.stex" ]
 
 [params]
 

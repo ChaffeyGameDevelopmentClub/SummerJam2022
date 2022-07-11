@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-1ada42475fe106c59fb9885a73678c1a.stex"
+path="res://.import/A1_2.png-73b9ac1c8df9fd883d4ac7963056d04b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/icon.png"
-dest_files=[ "res://.import/icon.png-1ada42475fe106c59fb9885a73678c1a.stex" ]
+source_file="res://Assets/Sprites/autotile animated/A1_2.png"
+dest_files=[ "res://.import/A1_2.png-73b9ac1c8df9fd883d4ac7963056d04b.stex" ]
 
 [params]
 
